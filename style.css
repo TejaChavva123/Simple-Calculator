@@ -1,0 +1,29 @@
+body{
+    background-color: blueviolet;
+}
+.content h1{
+    text-align:center;
+    font-size:40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+
+#ans{
+    border:2px solid blueviolet;
+    border-radius:10px;
+    margin:3px;
+    padding:20px;
+    height:30px;
+    font-size:30px;
+    width:200px;
+}
+input[type="button"]{
+    width:100%;
+    padding:20px;
+    margin:2px;
+    font-size:25px;
+}
+input[type="button"]:hover{
+    background-color:blueviolet;
+    color:white;
+}

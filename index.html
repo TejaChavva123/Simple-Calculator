@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="TejaChavva">
+        <meta name="viewport" content ="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="content">
+            <h1>Calculator</h1>
+            <div class="container">
+                <table align="center">
+                    <tr>
+                        <td colspan="3"><input type="text" id="ans"></td>
+                        <td><input type="button" value="c" onclick="clearscreen()" class="clear"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="1" onclick="show('1')" class="num"></td>
+                        <td><input type="button" value="2" onclick="show('2')" class="num"></td>
+                        <td><input type="button" value="3" onclick="show('3')" class="num"></td>
+                        <td><input type="button" value="/" onclick="show('/')" class="operator"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="4" onclick="show('4')" class="num"></td>
+                        <td><input type="button" value="5" onclick="show('5')" class="num"></td>
+                        <td><input type="button" value="6" onclick="show('6')" class="num"></td>
+                        <td><input type="button" value="x" onclick="show('*')" class="operator"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="7" onclick="show('7')" class="num"></td>
+                        <td><input type="button" value="8" onclick="show('8')" class="num"></td>
+                        <td><input type="button" value="9" onclick="show('9')" class="num"></td>
+                        <td><input type="button" value="-" onclick="show('-')" class="operator"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="00" onclick="show('00')" class="num"></td>
+                        <td><input type="button" value="0" onclick="show('0')" class="num"></td>
+                        <td><input type="button" value="." onclick="show('.')" class="decimal"></td>
+                        <td><input type="button" value="=" onclick="solve('=')" class="operator"></td>
+                    </tr>
+
+                </table>
+
+            </div>
+        </div>
+        
+    </body>
+</html>
